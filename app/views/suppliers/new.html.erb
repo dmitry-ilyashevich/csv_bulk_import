@@ -1,0 +1,5 @@
+<%= form_for(@import_file, url: suppliers_path, local: true) do |form| %>
+  <%= form.file_field :file %>
+  <br>
+  <%= form.submit %>
+<% end %>
